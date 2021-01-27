@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron text-center">
+  <h1>Idea Board</h1>  
+</div>
+   </div>
+   
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-sm-4">     
+<button type="button" class="btn btn-primary" onclick="addNoteToList(Note1)"> <span class="glyphicon glyphicon-plus"> Note 1</span></button>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+<button type="button" class="btn btn-primary"  onclick="addNoteToList(Note2)">  <span class="glyphicon glyphicon-plus"> Note 2</span></button>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+<button type="button" class="btn btn-primary" onclick="addNoteToList(Note3)">  <span class="glyphicon glyphicon-plus"> Note 3</span></button>
+    </div>
+  </div>
+    
+    <div class="col-xs-6 col-sm-4">     
+ <span id="Note1"> </span>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+ <span id="Note2"> </span>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+  <span id="Note3"> </span>
+    </div>
+</div>
+
+</body>
+</html>
